@@ -2,7 +2,7 @@ import react from "react";
 import { TfiAngleRight } from "react-icons/tfi";
 import workingman from "../assets/workingman.png";
 import laptopguy from "../assets/laptopguy.png";
-import "./advert.css";
+import "../App.css";
 
 function Advert() {
   const advertList = [

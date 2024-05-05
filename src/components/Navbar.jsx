@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/whitelogo.png";
-import "./navbar.css";
+import "../App.css";
 
 function Navbar() {
   const navItems = [
@@ -20,8 +20,7 @@ function Navbar() {
       <nav>
         <img src={Logo} alt="MakeWeWork Logo" className="Logo" />
         <div className="nav-links">
-          <ul>{pages}</ul>
-
+          <ul className="navitems">{pages}</ul>
           <button className="sign-up">Sign up</button>
           <button className="Login">Login</button>
         </div>
