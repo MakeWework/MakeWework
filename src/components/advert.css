@@ -1,0 +1,14 @@
+.adv1 {
+  padding-top: 30px;
+  background-color: green;
+}
+.adv-div {
+  display: flex;
+}
+.inner-div {
+  display: flex;
+  flex-direction: column;
+}
+.adv-img {
+  width: 35%;
+}
