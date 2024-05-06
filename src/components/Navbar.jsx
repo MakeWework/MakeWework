@@ -21,8 +21,10 @@ function Navbar() {
         <img src={Logo} alt="MakeWeWork Logo" className="Logo" />
         <div className="nav-links">
           <ul className="navitems">{pages}</ul>
-          <button className="sign-up">Sign up</button>
-          <button className="Login">Login</button>
+          <div className="nav-btn">
+            <button className="sign-up">Sign up</button>
+            <button className="Login">Login</button>
+          </div>
         </div>
       </nav>
     </header>
