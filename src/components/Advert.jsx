@@ -84,7 +84,6 @@ function Advert() {
             designed, or content written, we have the right professionals for
             the job.
           </p>
-
           <section className="sub-paragraphs">{subPara}</section>
         </div>
       </article>
