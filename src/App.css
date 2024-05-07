@@ -49,7 +49,7 @@ nav {
   background-size: 100vw 100vh;
   height: 100vh;
 }
-main {
+.main {
   position: relative;
   top: 270px;
   padding-left: 90px;
@@ -83,13 +83,11 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* background-color: green; */
 }
 .adv-article {
   display: flex;
   gap: 150px;
   margin-bottom: 20px;
-  /* background-color: red; */
 }
 .inner-div {
   display: flex;
@@ -137,4 +135,13 @@ h1 {
   color: #28a745;
   font-size: 24px;
   margin-bottom: -10px;
+}
+.sub-paragraphs {
+  display: flex;
+  gap: 25px;
+  padding-top: 10px;
+}
+.sub-paragraphs p {
+  width: 210px;
+  padding-top: 20px;
 }

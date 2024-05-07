@@ -1,4 +1,4 @@
-import react from "react";
+// import React from "react";
 import { TfiAngleRight } from "react-icons/tfi";
 import workingman from "../assets/workingman.png";
 import laptopguy from "../assets/laptopguy.png";
@@ -22,7 +22,6 @@ function Advert() {
       img: House,
     },
   ];
-
   const listItems = advertList.map((item) => {
     return (
       <li key={crypto.randomUUID()}>
@@ -31,6 +30,27 @@ function Advert() {
       </li>
     );
   });
+
+  const subParagraph = [
+    {
+      heading: "Efficient Process",
+      text: "Post your project, review proposals, and hire the perfect freelancer all in one place.",
+    },
+    {
+      heading: "Quality Results",
+      text: "Our freelancers are highly skilled and dedicated to delivering exceptional work on time.",
+    },
+  ];
+
+  const subPara = subParagraph.map((item) => {
+    return (
+      <article key={crypto.randomUUID()}>
+        <h3>{item.heading}</h3>
+        <p>{item.text}</p>
+      </article>
+    );
+  });
+
   return (
     <section className="adv1">
       {/* First Guy with laptop */}
@@ -64,6 +84,8 @@ function Advert() {
             designed, or content written, we have the right professionals for
             the job.
           </p>
+
+          <section className="sub-paragraphs">{subPara}</section>
         </div>
       </article>
     </section>
