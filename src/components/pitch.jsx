@@ -32,18 +32,20 @@ function Pitch() {
         <img src={items.image} alt="" />
         <h2>{items.heading}</h2>
         <p>{items.text}</p>
-        <button>
-          {items.button}
-          <TfiAngleRight />
-        </button>
+        <div className="pitch-btn">
+          <button>
+            {items.button}
+            <TfiAngleRight />
+          </button>
+        </div>
       </article>
     );
   });
   return (
     <>
-      <section>
+      <section className="pitch">
         <h1>Find the perfect freelancer for your project</h1>
-        <div>{pitchArticle}</div>
+        <div className="pitch-article">{pitchArticle}</div>
       </section>
     </>
   );

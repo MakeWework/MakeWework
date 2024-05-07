@@ -54,7 +54,7 @@ nav {
   top: 270px;
   padding-left: 90px;
 }
-h1 {
+.main h1 {
   color: #fff;
   font-weight: 700;
   font-size: 75px;
@@ -144,4 +144,55 @@ h1 {
 .sub-paragraphs p {
   width: 210px;
   padding-top: 20px;
+}
+
+/* Pitch section design */
+.pitch {
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: gray; */
+}
+.pitch h1 {
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+.pitch-article {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.pitch-article article {
+  /* background-color: red; */
+  width: 19.5%;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+}
+.pitch-article img {
+  border: 2px solid #28a745;
+  border-radius: 25px;
+}
+.pitch-article h2 {
+  font-weight: 600;
+  font-size: 23.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 32px;
+}
+.pitch-btn button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: 1px solid #28a745;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  color: #28a745;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
 }
