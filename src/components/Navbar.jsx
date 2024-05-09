@@ -23,7 +23,7 @@ function Navbar() {
         <div className="nav-links">
           <ul className="navitems">{pages}</ul>
           <div className="nav-btn">
-            <Link to="/sign_up">
+            <Link to="/sign_up" className="sign-up-link">
               <button className="sign-up">Sign up</button>
             </Link>
             <Link to="/login">
