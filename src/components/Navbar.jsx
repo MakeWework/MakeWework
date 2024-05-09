@@ -1,6 +1,7 @@
-import React from "react";
 import Logo from "../assets/whitelogo.png";
 import "../App.css";
+// import Login from "../pages/Login";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const navItems = [
@@ -23,7 +24,9 @@ function Navbar() {
           <ul className="navitems">{pages}</ul>
           <div className="nav-btn">
             <button className="sign-up">Sign up</button>
-            <button className="Login">Login</button>
+            <Link to="/login" className="">
+              <button className="Login">Login</button>
+            </Link>
           </div>
         </div>
       </nav>
