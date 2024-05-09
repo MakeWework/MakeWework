@@ -23,8 +23,10 @@ function Navbar() {
         <div className="nav-links">
           <ul className="navitems">{pages}</ul>
           <div className="nav-btn">
-            <button className="sign-up">Sign up</button>
-            <Link to="/login" className="">
+            <Link to="/sign_up">
+              <button className="sign-up">Sign up</button>
+            </Link>
+            <Link to="/login">
               <button className="Login">Login</button>
             </Link>
           </div>
