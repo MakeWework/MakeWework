@@ -1,5 +1,6 @@
 // import React from "react";
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 function Hero() {
@@ -12,7 +13,9 @@ function Hero() {
           Skip the search, find the right fit here. Vetted talents, vetted
           hirers
         </p>
-        <button className="Join">Join</button>
+        <Link to="/sign_up">
+          <button className="Join">Join</button>
+        </Link>
       </section>
     </main>
   );
