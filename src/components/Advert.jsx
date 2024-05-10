@@ -60,8 +60,9 @@ function Advert() {
           <h2>Building something new? Make we work.</h2>
           <ul className="inner-list">{listItems}</ul>
           <div>
-            <button className="learn-more">Learn More</button>
-
+            <Link to="/learn_more">
+              <button className="learn-more">Learn More</button>
+            </Link>
             <Link to="/sign_up">
               <button className="sign">
                 Sign up <TfiAngleRight />

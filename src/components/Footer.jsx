@@ -3,6 +3,7 @@ import Logo from "../assets/logo.png";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const footerLinks = [
@@ -42,7 +43,9 @@ function Footer() {
       <footer>
         <div className="first-footer">
           <section className="footer-img">
-            <img src={Logo} alt="logo" />
+            <Link to="/">
+              <img src={Logo} alt="logo" />
+            </Link>
             <div>
               <FaFacebook />
               <BsTwitterX />
