@@ -1,4 +1,4 @@
-import Logo from "../assets/blacklogo.png";
+import Logo from "../assets/whitelogo.png";
 import "../App.css";
 // import Login from "../pages/Login";
 import { Link } from "react-router-dom";
