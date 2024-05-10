@@ -1,4 +1,4 @@
-import Logo from "../assets/whitelogo.png";
+import Logo from "../assets/blacklogo.png";
 import "../App.css";
 // import Login from "../pages/Login";
 import { Link } from "react-router-dom";
@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const navItems = [
     "Home",
-    "Post Jobs",
-    "Find Freelancer",
-    "How it works",
-    "Browse categories",
+    "Upload gigs",
+    "Our Freelancers",
+    "About",
+    "Search",
   ];
 
   const pages = navItems.map((page) => {
@@ -23,9 +23,9 @@ function Navbar() {
         <div className="nav-links">
           <ul className="navitems">{pages}</ul>
           <div className="nav-btn">
-            <Link to="/sign_up" className="sign-up-link">
+            {/*  <Link to="/sign_up" className="sign-up-link">
               <button className="sign-up">Sign up</button>
-            </Link>
+            </Link> */}
             <Link to="/login">
               <button className="Login">Login</button>
             </Link>
