@@ -11,19 +11,18 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
+  width: 50%;
   font-size: 16px;
+  font-weight: 500;
 }
 .navitems {
   display: flex;
   list-style: none;
-  color: #fff;
+  color: #2f2e41;
   gap: 50px;
 }
 .nav-btn {
-  width: 200px;
   display: flex;
-  justify-content: space-between;
 }
 .sign-up {
   background-color: transparent;
@@ -61,13 +60,14 @@ nav {
   color: #fff;
   font-weight: 700;
   font-size: 75px;
-  width: 650px;
-  line-height: 80px;
+  width: 850px;
+  line-height: 85px;
   padding-bottom: 30px;
 }
 .catch-phrase {
-  width: 650px;
-  font-size: 25px;
+  width: 550px;
+  line-height: 35px;
+  font-size: 20px;
   padding-bottom: 20px;
 }
 .Join {
