@@ -1,7 +1,8 @@
 // import React from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
-import "../App.css";
+// import "../App.css";
+import "../components/Style/Hero.css";
 
 function Hero() {
   return (

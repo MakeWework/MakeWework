@@ -1,0 +1,115 @@
+#create-acct-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 200px 30px 200px;
+  }
+  
+  #create-acct-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #google-signup {
+    width: 70%;
+    background-color: #28a745;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  #google-icon {
+    position: absolute;
+    left: 80px;
+    top: 40%;
+    transform: translateY(-20%);
+  }
+  
+  #name,
+  #email,
+  #password,
+  #confirm-pass,
+  #phone {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #name {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #name input {
+    width: 40%;
+    padding: 10px 45px 10px 10px;
+  }
+  
+  #email input {
+    width: 100%;
+    padding: 10px 45px 10px 10px;
+  }
+  
+  #password input {
+    width: 100%;
+    padding: 10px 45px 10px 10px;
+  }
+  
+  #confirm-pass input {
+    width: 100%;
+    padding: 10px 45px 10px 10px;
+  }
+  
+  #phone input {
+    width: 100%;
+    padding: 10px 45px 10px 10px;
+  }
+  
+  #promotional-email,
+  #acknowledgement {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-right: 200px;
+    font-size: 12px;
+  }
+  
+  #promotional-email label input {
+    accent-color: rgb(115, 233, 115);
+    margin-right: 40px;
+  }
+  
+  #acknowledgement label input {
+    accent-color: rgb(115, 233, 115);
+    margin-right: 40px;
+  }
+  
+  #create-acct-form button {
+    border-style: none;
+    border-radius: 14px;
+    background-color: #b8b8b8;
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    color: whitesmoke;
+    cursor: pointer;
+  }
+  
+  #create-acct-form p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
+  #create-acct-form a {
+    color: #28a745;
+  }

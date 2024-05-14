@@ -1,6 +1,7 @@
 // import React from "react";
 import Navbar from "../components/Navbar";
-import "../App.css";
+// import "../App.css";
+import "../components/Style/Login.css";
 
 function Login() {
   return (
