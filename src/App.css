@@ -246,6 +246,26 @@ hr {
   display: flex;
   gap: 90px;
 }
+.wrapper{
+  text-align: center;
+  background: #b8b8b8;
+  background-image: url(assets/workingman.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper h1{
+  font-size: 40px;
+}
+.wrapper h2{
+  font-size: 45px;
+}
+.wrapper .input-box{
+  position: relative;
+  width: 100%;
+  margin: 40px 0;
+  width: 100%;
+}
 
 @media screen and (max-width: 1440px) {
   /* Navbar */
