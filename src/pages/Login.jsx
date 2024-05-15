@@ -18,7 +18,10 @@ const Login = () => {
                 <div className="forgot-password">
                     <a href="#">Forgot password?</a>
                 </div>
-                <button type="submit">Login</button>
+                <button className="button" type="submit">Login</button>
+
+                <h3>OR</h3>
+                <button>Continue With Google</button>
             </form>
         </div>
     );
