@@ -5,6 +5,7 @@ import laptopguy from "../assets/laptopguy.png";
 import Dollar from "../assets/dollar.png";
 import Case from "../assets/case.png";
 import House from "../assets/house.png";
+import { Link } from "react-router-dom";
 import "../App.css";
 
 function Advert() {
@@ -59,10 +60,14 @@ function Advert() {
           <h2>Building something new? Make we work.</h2>
           <ul className="inner-list">{listItems}</ul>
           <div>
-            <button className="learn-more">Learn More</button>
-            <button className="sign">
-              Sign up <TfiAngleRight />
-            </button>
+            <Link to="/learn_more">
+              <button className="learn-more">Learn More</button>
+            </Link>
+            <Link to="/sign_up">
+              <button className="sign">
+                Sign up <TfiAngleRight />
+              </button>
+            </Link>
           </div>
         </div>
         <div>
