@@ -2,6 +2,7 @@
 import Navbar from "../components/Navbar";
 import "../App.css";
 
+
 function Login() {
   return (
     <div className="wrapper">
