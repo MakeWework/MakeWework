@@ -8,7 +8,7 @@ function Login() {
       <Navbar />
       <form action="">
         <h1>Hello !</h1>
-        <h2>Come Make We Work!!</h2>
+        <h2>Come Make We Work</h2>
         <div className="input-box">
           <input type="text" placeholder="Username" required />
         </div>
