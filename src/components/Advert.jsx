@@ -6,7 +6,7 @@ import Dollar from "../assets/dollar.png";
 import Case from "../assets/case.png";
 import House from "../assets/house.png";
 import { Link } from "react-router-dom";
-import "../App.css";
+import "../styles/advert.css";
 
 function Advert() {
   const advertList = [

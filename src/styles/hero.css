@@ -1,0 +1,35 @@
+/* Hero section styling */
+.background {
+  background: url(../assets/background_image.png);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
+}
+.main {
+  position: relative;
+  top: 270px;
+  padding-left: 90px;
+}
+.main h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 75px;
+  width: 850px;
+  line-height: 85px;
+  padding-bottom: 30px;
+}
+.catch-phrase {
+  width: 550px;
+  line-height: 35px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.Join {
+  padding: 15px 70px 15px 70px;
+  border: none;
+  border-radius: 10px;
+  background-color: #28a745;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}

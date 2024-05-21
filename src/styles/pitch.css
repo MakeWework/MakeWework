@@ -1,0 +1,54 @@
+/* Pitch section design */
+.pitch {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.pitch h1 {
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 70px;
+}
+.pitch-article {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  position: relative;
+  height: 505px;
+}
+.pitch-article article {
+  width: 19.5%;
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 4px rgba(31, 152, 58, 0.3);
+}
+.pitch-article h2 {
+  font-weight: 600;
+  font-size: 23.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 32px;
+}
+.pitch-btn button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  border-radius: 10px;
+  color: #28a745;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 15px;
+  padding-left: 10px;
+}
+.Link {
+  text-decoration: none;
+}
