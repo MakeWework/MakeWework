@@ -6,7 +6,7 @@ import "../App.css";
 function Login() {
   return (
     <div className="wrapper">
-      <Navbar />
+      <Navbar/>
       <form action="">
         <h1>Hello !</h1>
         <h2>Come Make We Work</h2>
@@ -19,7 +19,9 @@ function Login() {
         <div className="forgot-password">
           <a href="#">Forgot password?</a>
         </div>
-        <button type="submit">Login</button>
+        <button className="login" type="submit">Login</button>
+        <h3>OR</h3>
+        <button className="signup">Sign Up With Google</button>
       </form>
     </div>
   );
