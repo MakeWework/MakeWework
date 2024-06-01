@@ -1,0 +1,71 @@
+/* Navbar styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px 15px 40px;
+    background-color: rgba(108, 117, 125, 0.4);
+  }
+  .Logo {
+    width: 200px;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .navitems {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    gap: 70px;
+  }
+  .nav-btn {
+    display: flex;
+  }
+  .Login {
+    background-color: #27a745;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+@media screen and (max-width: 1440px) {
+    /* Navbar */
+    .nav-links {
+      width: 75%;
+    }
+    .adv-article {
+      gap: 130px;
+    }
+  }
+  @media screen and (max-width: 1340px) {
+    .nav-links {
+      width: 75%;
+    }
+    .navitems {
+      gap: 40px;
+    }
+    .adv-article {
+      gap: 100px;
+    }
+  }
+  @media screen and (max-width: 1290px) {
+    nav {
+      padding: 20px 35px 20px 35px;
+    }
+    .nav-links {
+      width: 75%;
+    }
+    .navitems {
+      gap: 35px;
+    }
+    .adv-article {
+      gap: 80px;
+    }
+  }

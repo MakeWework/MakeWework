@@ -4,7 +4,9 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { BsTwitterX } from "react-icons/bs";
 import { Link } from "react-router-dom";
+
 import "../styles/footer.css";
+
 
 function Footer() {
   const footerLinks = [

@@ -1,5 +1,7 @@
 import Logo from "../assets/whitelogo.png";
+
 import "../styles/navbar.css";
+
 // import Login from "../pages/Login";
 import { Link } from "react-router-dom";
 
