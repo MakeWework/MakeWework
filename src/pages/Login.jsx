@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 // import "../App.css";
 import "../components/Style/Login.css";
 
+
 function Login() {
   return (
     <div className="wrapper">
@@ -19,7 +20,10 @@ function Login() {
         <div className="forgot-password">
           <a href="#">Forgot password?</a>
         </div>
-        <button type="submit">Login</button>
+        <button className="login" type="submit">Login</button>
+
+        <h3>OR</h3>
+        <button className="signup">Sign Up With Google</button>
       </form>
     </div>
   );

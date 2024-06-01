@@ -1,6 +1,5 @@
 import { FcGoogle } from "react-icons/fc";
 import Navbar from "../components/Navbar";
-import "../components/Style/Create_acct.css";
 
 function CreateAcct() {
   return (
@@ -69,3 +68,4 @@ function CreateAcct() {
 }
 
 export default CreateAcct;
+

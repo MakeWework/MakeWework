@@ -1,6 +1,7 @@
 import Logo from "../assets/whitelogo.png";
-// import "../App.css";
-import "../components/Style/Navbar.css";
+
+import "../styles/navbar.css";
+
 // import Login from "../pages/Login";
 import { Link } from "react-router-dom";
 

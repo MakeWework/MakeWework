@@ -4,7 +4,9 @@ import pitch2 from "../assets/pitch2.png";
 import pitch3 from "../assets/pitch3.png";
 import { Link } from "react-router-dom";
 import { TfiAngleRight } from "react-icons/tfi";
-import "../components/Style/Pitch.css";
+
+import "../styles/pitch.css";
+
 
 function Pitch() {
   const articleContent = [
