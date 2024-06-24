@@ -27,7 +27,7 @@ function Navbar() {
   });
 
   return (
-    <header className={`${sticky ? "sticky top-0 z-10" : ""}`}>
+    <header className={`sticky top-0 z-20`}>
       <nav className="flex justify-between py-[5px] px-[40px] bg-navColor backdrop-filter backdrop-blur-sm top-0">
         <Link to="/">
           <img src={Logo} alt="MakeWeWork Logo" className="w-[200px]" />

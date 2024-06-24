@@ -7,7 +7,7 @@ export default {
       colors: {
         green: "#28a745",
         white: "#fff",
-        navColor: "rgba(108, 117, 125, 0.4)",
+        navColor: "rgba(108, 117, 125,0.5)",
       },
       fontSize: {
         "2xl": "65px",
@@ -17,7 +17,7 @@ export default {
         extraBold: 700,
       },
       lineHeight: {
-        2: "35px",
+        2: "30px",
         9: "85px",
       },
       fontFamily: {
