@@ -1,4 +1,7 @@
 import Logo from "../assets/whitelogo.png";
+import "../styles/navbar.css";
+
+
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 

@@ -1,6 +1,10 @@
+
+// import React from "react";
+
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
+
 function SignUp() {
   const cardOriginalColor = "rgba(255, 255, 255, 0.6)";
   const cardClicked = "rgba(40, 167, 70, 0.6)";
@@ -9,12 +13,15 @@ function SignUp() {
   const [clientColor, setClientColor] = useState(cardOriginalColor);
   const [isRoleSelected, setIsRoleSelected] = useState (false);
 
+
   const handleFreelancerClick = () => {
     setFreelancerColor(
       freelancerColor === cardOriginalColor ? cardClicked : cardOriginalColor
     );
     setClientColor(cardOriginalColor);
+
     setIsRoleSelected(freelancerColor===cardOriginalColor);
+
   };
   const handleClientClick = () => {
     setClientColor(
@@ -22,6 +29,7 @@ function SignUp() {
     );
     setFreelancerColor(cardOriginalColor);
     setIsRoleSelected(clientColor === cardOriginalColor);
+
   };
 
   return (
@@ -63,7 +71,11 @@ function SignUp() {
             </div>
             <div className="create-btn">
               <Link to="/create_acct">
+
+                <button id="createacct">Create an account</button>
+
                 <button id="createacct" disabled={!isRoleSelected}>Create an account</button>
+
               </Link>
             </div>
 
