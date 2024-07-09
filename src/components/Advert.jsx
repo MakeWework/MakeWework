@@ -6,8 +6,8 @@ import Dollar from "../assets/dollar.png";
 import Case from "../assets/case.png";
 import House from "../assets/house.png";
 import { Link } from "react-router-dom";
-
 import "../styles/advert.css";
+
 
 
 function Advert() {
@@ -27,7 +27,7 @@ function Advert() {
   ];
   const listItems = advertList.map((item) => {
     return (
-      <li key={crypto.randomUUID()}>
+      <li key={crypto.randomUUID()} className="flex gap-[10px] items-center">
         <img src={item.img} alt="" />
         {item.called}
       </li>
@@ -48,50 +48,58 @@ function Advert() {
   const subPara = subParagraph.map((item) => {
     return (
       <article key={crypto.randomUUID()}>
-        <h3>{item.heading}</h3>
-        <p>{item.text}</p>
+        <h3 className="font-[700]">{item.heading}</h3>
+        <p className="w-[210px] pt-3">{item.text}</p>
       </article>
     );
   });
 
   return (
-    <section className="adv1">
+    <section className="flex flex-col pt-5 items-center justify-center">
       {/* First Guy with laptop */}
-      <article className="adv-article">
-        <div className="inner-div">
-          <h2>Building something new? Make we work.</h2>
-          <ul className="inner-list">{listItems}</ul>
-          <div>
+      <article className="flex mb-9 gap-[80px]">
+        <div className="flex flex-col">
+          <h2 className="pt-[30px] text-[40px] font-[500] leading-[50px] w-[400px] pb-[25px]">
+            Building something new? Make we work.
+          </h2>
+          <ul className="flex flex-col gap-6 pb-[20px] list-none">
+            {listItems}
+          </ul>
+          <div className="flex items-center">
             <Link to="/learn_more">
-              <button className="learn-more">Learn More</button>
+              <button className="rounded-lg px-10 py-3 border border-[#9e9e9e]">
+                Learn More
+              </button>
             </Link>
             <Link to="/sign_up">
-              <button className="sign">
+              <button className="flex items-center ml-8 gap-1">
                 Sign up <TfiAngleRight />
               </button>
             </Link>
           </div>
         </div>
         <div>
-          <img src={workingman} alt="workingman" className="adv-img" />
+          <img src={workingman} alt="workingman" className="w-[550px]" />
         </div>
       </article>
 
       {/* Laptop with hand */}
-      <article className="adv-article">
+      <article className="flex mb-5 gap-[60px]">
         <div>
-          <img src={laptopguy} alt="workingman" className="adv-img" />
+          <img src={laptopguy} alt="workingman" className="w-[550px]" />
         </div>
-        <div className="inner-div">
-          <span className="intro">Clients</span>
-          <h2>Post your projects easily and find freelancers </h2>
-          <p>
+        <div className="flex flex-col">
+          <span className="text-green text-xl mb-[-15px]">Clients</span>
+          <h2 className="pt-[30px] text-[40px] font-[500] leading-[50px] w-[400px] pb-[10px]">
+            Post your projects easily and find freelancers{" "}
+          </h2>
+          <p className="w-[450px]">
             Our platform makes it simple to post your projects and connect with
             talented freelancers. Whether you need a website built, a logo
             designed, or content written, we have the right professionals for
             the job.
           </p>
-          <section className="sub-paragraphs">{subPara}</section>
+          <section className="flex gap-5 pt-[10px]">{subPara}</section>
         </div>
       </article>
     </section>
